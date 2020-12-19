@@ -213,6 +213,7 @@ li {
 
 .news__article {
 	box-shadow: 1px 1px 5px 1px #999;
+	height: fit-content;
 	:nth-child(1){
 		img{
 			width: 100%;
@@ -223,8 +224,9 @@ li {
 
 
 .news__text{
-	padding: 0 15px;
-}
+	padding: 10px 15px;
+	}
+
 
 // -------------
 // 	News
