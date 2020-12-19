@@ -215,6 +215,10 @@ li {
   width: 100%;
 }
 
+.news {
+  margin: 0 auto;
+}
+
 .news__article {
   -webkit-box-shadow: 1px 1px 5px 1px #999;
           box-shadow: 1px 1px 5px 1px #999;
@@ -330,11 +334,13 @@ li {
     margin-right: 50px;
   }
   .news {
-    margin: 0 auto;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 200px;
-        grid-template-rows: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-rows: 200px 400px;
+        grid-template-rows: 200px 400px;
     -ms-grid-columns: 30% 30% 30%;
         grid-template-columns: 30% 30% 30%;
     grid-column-gap: 20px;
