@@ -202,7 +202,6 @@ button {
 
 button:focus {
   outline: 0;
-  outline: 0; -webkit-focus-ring-color;
 }
 
 input,
